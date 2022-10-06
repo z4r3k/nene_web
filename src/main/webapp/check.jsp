@@ -11,7 +11,6 @@
 	<%
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-
 		Connection connection = null;
 		Statement statement = null;
 		ResultSet rs = null;
@@ -26,7 +25,7 @@
 			System.out.println("1");
 			statement = connection.createStatement();
 			//发送sql语句，执行
-			String sql = "select count(*) from user where (mobile = '"+username+"' or email = '"+username+"') and pwd = '"+password+"'  ";
+			String sql = "select count(*) from user where (mobile = '"+username+"' or name = '"+username+"') and pwd = '"+password+"'  ";
 			System.out.println(sql);
 			rs = statement.executeQuery(sql);
 			//处理结果
@@ -35,7 +34,7 @@
 				count = rs.getInt(1);
 			}
 			if (count > 0) {
-				request.getRequestDispatcher("success.jsp").forward(request, response);
+				request.getRequestDispatcher("index.jsp").forward(request, response);
 			}else {
 				request.getRequestDispatcher("error.jsp").forward(request, response);
 			}

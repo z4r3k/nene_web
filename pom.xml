@@ -29,5 +29,14 @@
   </dependencies>
   <build>
     <finalName>nene_javaweb</finalName>
+      <pluginManagement>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.1</version>
+          </plugin>
+        </plugins>
+      </pluginManagement>
   </build>
 </project>

@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="bigBox">
-			<h1>LOGIN</h1>
+			<h1>SIGN IN</h1>
 			<div class="inputBox">
 				<form action="check.jsp" method="post">
 					<div class="inputText">
@@ -21,7 +21,8 @@
 						<i class="fa fa-key" style="color: whitesmoke;"></i>
 						<input type="password" placeholder="密码" name="password"/>
 					</div>
-					<input type="submit" class="inputButton" value="LOGIN" />
+					<input type="submit" class="inputButton" value="Sign in" />
+					<a href="signup.jsp"><input type="button" class="signupButton" value="Sign up" /></a>
 				</form>
 			</div>
 		</div>

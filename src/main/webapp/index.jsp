@@ -9,6 +9,7 @@
     <title>Nene's home</title>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/slick.css" type="text/css" />
     <link rel="stylesheet" href="static/css/templatemo-style.css">
 </head>
@@ -29,20 +30,23 @@
                   <div class="collapse navbar-collapse" id="navbar-supported-content">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                       <li class="nav-item selected">
-                        <a class="nav-link" aria-current="page" href="#0" data-no="1">Home</a>
+                        <a class="nav-link" aria-current="page" href="#0" data-no="1">主页</a>
                         <div class="circle"></div>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#0" data-no="2">Gallery</a>
+                        <a class="nav-link" href="#0" data-no="2">舞台</a>
                         <div class="circle"></div>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#0" data-no="3">About</a>
+                        <a class="nav-link" href="#0" data-no="3">美照</a>
                         <div class="circle"></div>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#0" data-no="4">Contact</a>
+                        <a class="nav-link" href="#0" data-no="4">二创</a>
                         <div class="circle"></div>
+                      </li>
+                      <li>
+                          <a type="button" style="color:#ffffff" background-color:transparent border-style:none href="login.jsp"><img src="static/img/login.png" height ="30" width="30">登录</a>
                       </li>
                     </ul>
                   </div>
@@ -235,6 +239,9 @@
               </div>
             </div>
           </li>
+          <li data-page-no="5">
+
+            </li>
         </ul>
     </div>
     <div class="container-fluid">
